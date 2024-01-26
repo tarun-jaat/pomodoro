@@ -1,0 +1,68 @@
+#Pomodoro{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+background: rgba(55, 145, 187, 0.104);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 242, 255, 0.934);
+backdrop-filter: blur(20px);
+-webkit-backdrop-filter: blur(20px);
+border: 1px solid rgba(55, 145, 187, 0.189);
+    height: 500px;
+    width: 600px;
+    position: relative;
+}
+.TIMER{
+    color: rgba(0, 255, 255, 0.868);
+    font-size: 3rem;
+    font-weight: 700;
+}
+.WORK{
+    color:rgba(0, 0, 0, 0.995);
+    font-weight: 700;
+    background-color:rgba(0, 255, 229, 0.873);
+    font-size:2rem;
+}
+.buttons{
+    margin: 20px;
+}
+.buttons button {
+    margin: 20px;
+    height:40px;;width: 100px;
+    border-color: #3498db66;
+    color: #fff;
+    box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+  }
+  .buttons button:hover {
+    background-color: #3498db00;
+    box-shadow: 0 0 2px 0 #3498db inset, 0 0 3px 2px #3498db;
+  }
+.clock{
+    font-size: 2rem;
+    font-weight: 800;
+    letter-spacing: 7px;
+    color: rgb(0, 255, 255);
+}
+input{
+    color:aliceblue;
+    margin-bottom: 20px;
+    padding: 10px;
+    background: rgba(55, 145, 187, 0.104);
+    height: 40px;
+    width: 300px;
+}
+label{
+    text-align:start;
+    margin:10px;
+    justify-content: center;
+}
+.Set{
+    box-shadow: 0 0 2px 0 #3498db inset, 0 0 3px 2px #3498db;
+}
+.Set:hover {
+    background-color: #3498db00;
+    box-shadow: 0 0 2px 0 #3498db inset, 0 0 3px 2px #3498db;
+  }
